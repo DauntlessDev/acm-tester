@@ -1,0 +1,116 @@
+.section1 h1, .section1 h3{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+}
+
+.section2 h3 {
+    color: #101010;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.section2 p {
+    color: #060606;
+    font-weight: 400;
+}
+
+.section3 h1 {
+    color: #fff;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.section3 p {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.section4 h1{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.section4 p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Members page */
+.section1-members h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.section1-members h6,
+.section1-officers h6{
+    color: #fff;
+    font-weight: 400;
+}
+
+/* About page */
+.section1-about h1,
+.section3-about h1,
+.section1-officers h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.section2-about h1,
+.section2-events h1{
+    color: #0c0c0c;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.section2-about h3{
+    color: #0c0c0c;
+    font-weight: 900;
+}
+
+.section2-about p{
+    color: #0c0c0c;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+/* Officers page */
+
+.section1-officers h1{
+    text-transform: uppercase;
+}
+
+.section2-officers h1{
+    color: #121212;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.h2{
+    color: #121212;
+    font-weight: 2500;
+    font-size: 40px;
+}
+.section2-officers .officer-name{
+    font-weight: 900;
+}
+
+.section2-officers h6{
+    font-weight: 700;
+}
+
+/* Events */
+.section3-events .cd-timeline__block .cd-timeline__content h2, 
+.section3-events .cd-timeline__block .cd-timeline__content p {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}

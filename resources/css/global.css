@@ -1,0 +1,39 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4,
+h5,h6,a,p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+li a:hover,
+p a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* .section1-members .container,
+.section1-about .container, 
+.section1-officers .container{
+    left: 50%;
+    margin: 0;
+    margin-right: -50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section3-about .container{
+    left: 30%;
+    margin: 0;
+    margin-right: -50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.pt-6{
+    padding-top: 5rem!important;
+}

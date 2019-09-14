@@ -1,0 +1,43 @@
+/* Header */
+.navbar button.navbar-toggler {
+    border-color: #fff;
+}
+
+nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+}
+
+.solid{
+    background-color: #282828;
+}
+
+
+/* Footer */
+footer{
+    background-color: #303030;
+}
+
+.black-line{
+    background-color: #282828;
+    height: 20px;
+}
+
+footer h1, footer h2, footer h3, footer h4,
+footer h5,footer h6,footer p,footer a,footer ul li{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+footer h5 {
+    font-weight: 700;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 5px 0px;
+}

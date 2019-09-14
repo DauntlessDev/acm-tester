@@ -1,0 +1,186 @@
+/* Section 1 - Home*/
+.section1{
+    background-image: url('../img/banner/banner1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+/* Section 2 - Home*/
+.section2 .row {
+    height: 600px;
+}
+
+.section2 .ph-flag{
+    position: relative;
+}
+
+.section2 .ph-flag img{
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+.section2 hr {
+    background: #124d74;
+    height: 2px;
+}
+
+/* Section 3 - Home*/
+.section3{
+    background-image: url('../img/banner/banner3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Section 4 - Home */
+.section4{
+    background-image: url('../img/banner/banner-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section4 .container-fluid{
+    position: relative;
+}
+
+.section4 .container-fluid .row.articles{
+    position: absolute;
+    top: -67px;
+}
+
+.section4 .container-fluid .row.articles h1 {
+    font-size: 95px;
+}
+
+
+.white-line{
+    background-color: #fff;
+    height: 20px;
+}
+
+/* Members Page */
+.section1-members{
+    background-image: url('../img/banner/banner-members.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+
+/* About Page */
+.section1-about{
+    background-image: url('../img/banner/banner-about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.section3-about{
+    background-image: url('../img/banner/banner-about2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+    position: relative;
+}
+
+.remove-class{
+    display: none;
+}
+
+/* Officers */
+.section1-officers{
+    background-image: url('../img/banner/banner-officers.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.side-scroll-officers-content{
+    display:;
+}
+.side-scroll-officers{
+    
+    border-radius: 25px;
+    padding-top: 50px;
+    background-color: #e6e6e6;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 300px;
+}
+.side-scroll-officers::-webkit-scrollbar{
+    display: noasne;
+}
+/* width */
+.side-scroll-officers::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+ /* Track */
+.side-scroll-officers::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(17, 16, 16); 
+    border-radius: 10px;
+  }
+  /* Handle */
+.side-scroll-officers::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+.section2-officers{
+    position: relative;
+    resize: both;
+}
+
+.section2-officers .tab-officers{
+    position: absolute;
+    top: -47px;
+}
+
+.section2-officers .nav.nav-tabs {
+    border-bottom: none;
+}
+
+.section2-officers .nav .nav-item .nav-link {
+    background-color: #cecece;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    color: #272727;
+    font-weight: 900;
+}
+
+.section2-officers .nav .nav-item .nav-link.active{
+    background-color: #fff;
+}
+
+/* Events
+.section1-events{
+    background-image: url('../img/banner/banner-events.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+} */
+.section2-events select{
+    border-radius: 50px;
+    color: #ababab;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+.event-scroll{
+    background-color: #e6e6e6;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 530px;
+}
+.event-scroll::-webkit-scrollbar{
+    display: none;
+}
+
+.section3-events .cd-timeline__content {
+    background-color: rgb(117,205,101);
+    -webkit-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.59);
+    -moz-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.59);
+    box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.59);
+}

@@ -1,0 +1,145 @@
+<section class="section1-officers">
+    <div class="container pt-6">
+        <div class="row justify-content-center align-items-center text-center pt-6">
+            <div class="col-lg-12">
+                <h1>Meet the Officers</h1>
+                <h6>Get to know more about the people behind FIT ACM</h6>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section2-officers">
+    <div class="container-fluid tab-officers px-5">
+        <div class="row justify-content-center">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="ay1920-tab" data-toggle="tab" href="#ay1920" role="tab" aria-controls="ay1920" aria-selected="true">A.Y. '19-'20</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="ay1819-tab" data-toggle="tab" href="#ay1819" role="tab" aria-controls="ay1819" aria-selected="false">A.Y. '18-'19</a>
+                </li>
+                <!--li class="nav-item">
+                    <a class="nav-link" id="ay1617-tab" data-toggle="tab" href="#ay1617" role="tab" aria-controls="ay1617" aria-selected="false">A.Y. '16-'17</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="ay1516-tab" data-toggle="tab" href="#ay1516" role="tab" aria-controls="ay1516" aria-selected="false">A.Y. '15-'16</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="ay1415-tab" data-toggle="tab" href="#ay1415" role="tab" aria-controls="ay1415" aria-selected="false">A.Y. '14-'15</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="ay1314-tab" data-toggle="tab" href="#ay1314" role="tab" aria-controls="ay1314" aria-selected="false">A.Y. '13-'14</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="ay1213-tab" data-toggle="tab" href="#ay1213" role="tab" aria-controls="ay1213" aria-selected="false">A.Y. '12-'13</a>
+                </li> -->
+                <!-- <li class="nav-item">
+                    <a class="nav-link" id="ay1112-tab" data-toggle="tab" href="#ay1112" role="tab" aria-controls="ay1112" aria-selected="false">A.Y. '11-'12</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="ay1011-tab" data-toggle="tab" href="#ay1011" role="tab" aria-controls="ay1011" aria-selected="false">A.Y. '10-'11</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="ay0910-tab" data-toggle="tab" href="#ay0910" role="tab" aria-controls="ay0910" aria-selected="false">A.Y. '09-'10</a>
+                </li> -->
+            </ul>
+            </div>
+        </div>
+    <div class="container pt-5">
+        <div class="row justify-content-start text-left pt-5">
+            <h1>Officers</h1>
+        </div>
+        <div class="row justify-content-start text-left">
+            <h6>for Academic Year 2019 - 2020</h6> <!-- static year -->
+        </div>
+            <div class="row justify-content-start text-left py-5">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="ay1920" role="tabpanel" aria-labelledby="ay1920-tab">
+                        <div class="side-scroll-officers">
+                            <div class="container">
+                                    <div class="row text-center">
+                                        <div class="col">
+                                            <img src="resources/img/icons/unknown.png" alt="" >
+                                            <h5 class="officer-name pt-3">Bogs</h5>
+                                            <h6>Chairperson</h6>
+                                        </div>
+                                        <div class="col">
+                                            <img src="resources/img/icons/unknown.png" alt="" >
+                                            <h5 class="officer-name pt-3">Bogs</h5>
+                                            <h6>Chairperson</h6>
+                                        </div>
+                                        <div class="col">
+                                            <img src="resources/img/icons/unknown.png" alt="" >
+                                            <h5 class="officer-name pt-3">Bogs</h5>
+                                            <h6>Chairperson</h6>
+                                        </div>
+                                        <div class="col">
+                                            <img src="resources/img/icons/unknown.png" alt="" >
+                                            <h5 class="officer-name pt-3">Bogs</h5>
+                                            <h6>Chairperson</h6>
+                                        </div>
+                                        <div class="col">
+                                            <img src="resources/img/icons/unknown.png" alt="" >
+                                            <h5 class="officer-name pt-3">Bogs</h5>
+                                            <h6>Chairperson</h6>
+                                        </div>
+                                        <div class="col">
+                                            <img src="resources/img/icons/unknown.png" alt="" >
+                                            <h5 class="officer-name pt-3">Bogs</h5>
+                                            <h6>Chairperson</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="tab-pane fade" id="ay1819" role="tabpanel" aria-labelledby="ay1819-tab">
+                        <div class="side-scroll-officers">
+                                <div class="container">
+                                    <div class="row text-center">
+                                        <div class="col">
+                                            <img src="resources/img/icons/unknown.png" alt="" >
+                                            <h5 class="officer-name pt-3">Alain Mindana</h5>
+                                            <h6>Chairperson</h6>
+                                        </div>
+                                        <div class="col">
+                                            <img src="resources/img/icons/unknown.png" alt="" >
+                                            <h5 class="officer-name pt-3">Alain Mindana</h5>
+                                            <h6>Chairperson</h6>
+                                        </div>
+                                        <div class="col">
+                                            <img src="resources/img/icons/unknown.png" alt="" >
+                                            <h5 class="officer-name pt-3">Alain Mindana</h5>
+                                            <h6>Chairperson</h6>
+                                        </div>
+                                        <div class="col">
+                                            <img src="resources/img/icons/unknown.png" alt="" >
+                                            <h5 class="officer-name pt-3">Alain Mindana</h5>
+                                            <h6>Chairperson</h6>
+                                        </div>
+                                        <div class="col">
+                                            <img src="resources/img/icons/unknown.png" alt="" >
+                                            <h5 class="officer-name pt-3">Alain Mindana</h5>
+                                            <h6>Chairperson</h6>
+                                        </div>
+                                        <div class="col">
+                                            <img src="resources/img/icons/unknown.png" alt="" >
+                                            <h5 class="officer-name pt-3">Alain Mindana</h5>
+                                            <h6>Chairperson</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!--div class="tab-pane fade" id="ay1617" role="tabpanel" aria-labelledby="ay1617-tab">1617</div>
+                    <div class="tab-pane fade" id="ay1516" role="tabpanel" aria-labelledby="ay1516-tab">1516</div>
+                    <div class="tab-pane fade" id="ay1415" role="tabpanel" aria-labelledby="ay1415-tab">1415</div>
+                    <div class="tab-pane fade" id="ay1314" role="tabpanel" aria-labelledby="ay1314-tab">1314</div>
+                    <div class="tab-pane fade" id="ay1213" role="tabpanel" aria-labelledby="ay1213-tab">1213</div>
+                    <div class="tab-pane fade" id="ay1112" role="tabpanel" aria-labelledby="ay1112-tab">1112</div>
+                    <div class="tab-pane fade" id="ay1011" role="tabpanel" aria-labelledby="ay1011-tab">1011</div>
+                    <div class="tab-pane fade" id="ay0910" role="tabpanel" aria-labelledby="ay0910-tab">0910</div-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
