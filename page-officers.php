@@ -52,84 +52,88 @@
         <div class="row justify-content-start text-left">
             <h6>for Academic Year 2019 - 2020</h6> <!-- static year -->
         </div>
-            <div class="row justify-content-start text-left py-5">
+            <div class="row justify-content-center text-left py-5">
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="ay1920" role="tabpanel" aria-labelledby="ay1920-tab">
-                        <div class="side-scroll-officers">
-                            <div class="container">
-                                    <div class="row text-center">
-                                        <div class="col">
-                                            <img src="resources/img/icons/unknown.png" alt="" >
-                                            <h5 class="officer-name pt-3">Bogs</h5>
-                                            <h6>Chairperson</h6>
-                                        </div>
-                                        <div class="col">
-                                            <img src="resources/img/icons/unknown.png" alt="" >
-                                            <h5 class="officer-name pt-3">Bogs</h5>
-                                            <h6>Chairperson</h6>
-                                        </div>
-                                        <div class="col">
-                                            <img src="resources/img/icons/unknown.png" alt="" >
-                                            <h5 class="officer-name pt-3">Bogs</h5>
-                                            <h6>Chairperson</h6>
-                                        </div>
-                                        <div class="col">
-                                            <img src="resources/img/icons/unknown.png" alt="" >
-                                            <h5 class="officer-name pt-3">Bogs</h5>
-                                            <h6>Chairperson</h6>
-                                        </div>
-                                        <div class="col">
-                                            <img src="resources/img/icons/unknown.png" alt="" >
-                                            <h5 class="officer-name pt-3">Bogs</h5>
-                                            <h6>Chairperson</h6>
-                                        </div>
-                                        <div class="col">
-                                            <img src="resources/img/icons/unknown.png" alt="" >
-                                            <h5 class="officer-name pt-3">Bogs</h5>
-                                            <h6>Chairperson</h6>
-                                        </div>
-                                    </div>
-                                </div>
+
+                        <!-- Slideshows -->
+                        <div id="slideshowOfficers19-20" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="https://placeimg.com/300/400/people/grayscale" class="d-block w-auto slidershow-officers" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>President</h5>
+                                <p>Bogs</p>
+                              </div>
                             </div>
-                        </div>
+                            <div class="carousel-item">
+                              <img src="https://placeimg.com/300/400/people/grayscale" class="d-block w-auto slidershow-officers" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>President</h5>
+                                <p>Bogs</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://placeimg.com/300/400/people/grayscale" class="d-block w-auto slidershow-officers" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>President</h5>
+                                <p>Bogs</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <a class="carousel-control-prev" href="#slideshowOfficers19-20" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#slideshowOfficers19-20" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                      </div>
+                      <!-- ./Slideshows -->
+
+                    </div>
                     <div class="tab-pane fade" id="ay1819" role="tabpanel" aria-labelledby="ay1819-tab">
-                        <div class="side-scroll-officers">
-                                <div class="container">
-                                    <div class="row text-center">
-                                        <div class="col">
-                                            <img src="resources/img/icons/unknown.png" alt="" >
-                                            <h5 class="officer-name pt-3">Alain Mindana</h5>
-                                            <h6>Chairperson</h6>
-                                        </div>
-                                        <div class="col">
-                                            <img src="resources/img/icons/unknown.png" alt="" >
-                                            <h5 class="officer-name pt-3">Alain Mindana</h5>
-                                            <h6>Chairperson</h6>
-                                        </div>
-                                        <div class="col">
-                                            <img src="resources/img/icons/unknown.png" alt="" >
-                                            <h5 class="officer-name pt-3">Alain Mindana</h5>
-                                            <h6>Chairperson</h6>
-                                        </div>
-                                        <div class="col">
-                                            <img src="resources/img/icons/unknown.png" alt="" >
-                                            <h5 class="officer-name pt-3">Alain Mindana</h5>
-                                            <h6>Chairperson</h6>
-                                        </div>
-                                        <div class="col">
-                                            <img src="resources/img/icons/unknown.png" alt="" >
-                                            <h5 class="officer-name pt-3">Alain Mindana</h5>
-                                            <h6>Chairperson</h6>
-                                        </div>
-                                        <div class="col">
-                                            <img src="resources/img/icons/unknown.png" alt="" >
-                                            <h5 class="officer-name pt-3">Alain Mindana</h5>
-                                            <h6>Chairperson</h6>
-                                        </div>
-                                    </div>
-                                </div>
+                      <div class="container">
+                        <!-- Slideshows -->
+                        <div id="slideshowOfficers18-19" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="https://placeimg.com/300/400/people/grayscale" class="d-block w-auto slidershow-officers" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>President</h5>
+                                <p>Alain Vincent Mindana</p>
+                              </div>
                             </div>
+                            <div class="carousel-item">
+                              <img src="https://placeimg.com/300/400/people/grayscale" class="d-block w-auto slidershow-officers" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>President</h5>
+                                <p>Alain Vincent Mindana</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://placeimg.com/300/400/people/grayscale" class="d-block w-auto slidershow-officers" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>President</h5>
+                                <p>Alain Vincent Mindana</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <a class="carousel-control-prev" href="#slideshowOfficers18-19" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#slideshowOfficers18-19" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
                         </div>
+                        <!-- ./Slideshows -->
+                      </div>
+                    </div>
                     <!--div class="tab-pane fade" id="ay1617" role="tabpanel" aria-labelledby="ay1617-tab">1617</div>
                     <div class="tab-pane fade" id="ay1516" role="tabpanel" aria-labelledby="ay1516-tab">1516</div>
                     <div class="tab-pane fade" id="ay1415" role="tabpanel" aria-labelledby="ay1415-tab">1415</div>
