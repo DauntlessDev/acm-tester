@@ -56,3 +56,6 @@ $(document).ready(function(){
 		$(".add-new").removeAttr("disabled");
     });
 });
+
+
+// for tables add,edit, delete
