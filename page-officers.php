@@ -60,25 +60,16 @@
                         <div id="slideshowOfficers19-20" class="carousel slide" data-ride="carousel">
                           <div class="carousel-inner">
                             <div class="carousel-item active">
-                              <img src="https://placeimg.com/300/400/people/grayscale" class="d-block w-auto slidershow-officers" alt="...">
-                              <div class="carousel-caption d-none d-md-block">
-                                <h5>President</h5>
-                                <p>Bogs</p>
-                              </div>
+                              <img src="resources\img\officer\2019officera.png" class="d-block w-auto slidershow-officers" alt="...">
                             </div>
                             <div class="carousel-item">
-                              <img src="https://placeimg.com/300/400/people/grayscale" class="d-block w-auto slidershow-officers" alt="...">
-                              <div class="carousel-caption d-none d-md-block">
-                                <h5>President</h5>
-                                <p>Bogs</p>
-                              </div>
+                              <img src="resources\img\officer\2019officerb.png" class="d-block w-auto slidershow-officers" alt="...">
                             </div>
                             <div class="carousel-item">
-                              <img src="https://placeimg.com/300/400/people/grayscale" class="d-block w-auto slidershow-officers" alt="...">
-                              <div class="carousel-caption d-none d-md-block">
-                                <h5>President</h5>
-                                <p>Bogs</p>
-                              </div>
+                              <img src="resources\img\officer\2019officerc.png" class="d-block w-auto slidershow-officers" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="resources\img\officer\2019officerd.png" class="d-block w-auto slidershow-officers" alt="...">
                             </div>
                           </div>
 
@@ -99,26 +90,11 @@
                         <!-- Slideshows -->
                         <div id="slideshowOfficers18-19" class="carousel slide" data-ride="carousel">
                           <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img src="https://placeimg.com/300/400/people/grayscale" class="d-block w-auto slidershow-officers" alt="...">
-                              <div class="carousel-caption d-none d-md-block">
-                                <h5>President</h5>
-                                <p>Alain Vincent Mindana</p>
-                              </div>
+                          <div class="carousel-item active">
+                              <img src="resources\img\officer\2018officera.png" class="d-block w-auto slidershow-officers" alt="...">
                             </div>
                             <div class="carousel-item">
-                              <img src="https://placeimg.com/300/400/people/grayscale" class="d-block w-auto slidershow-officers" alt="...">
-                              <div class="carousel-caption d-none d-md-block">
-                                <h5>President</h5>
-                                <p>Alain Vincent Mindana</p>
-                              </div>
-                            </div>
-                            <div class="carousel-item">
-                              <img src="https://placeimg.com/300/400/people/grayscale" class="d-block w-auto slidershow-officers" alt="...">
-                              <div class="carousel-caption d-none d-md-block">
-                                <h5>President</h5>
-                                <p>Alain Vincent Mindana</p>
-                              </div>
+                              <img src="resources\img\officer\2018officerb.png" class="d-block w-auto slidershow-officers" alt="...">
                             </div>
                           </div>
 

@@ -1,3 +1,10 @@
+@media screen and (max-width:1100px){
+    .section2-officers .container-fluid.tab-officers{
+        top:-38px;
+    }
+
+}
+
 @media screen and (max-width:991px){
     footer ul {
         padding: 0px;
@@ -17,6 +24,10 @@
         text-align: right;
         background: linear-gradient(45deg, black, transparent);
     }
+
+    .section2-officers .container-fluid.tab-officers{
+        top:-40px;
+    }
 }
 
 @media screen and (max-width: 767px){
@@ -26,6 +37,9 @@
 
     .section4 .container-fluid .row:first-child h1 {
         font-size: 75px;
+    }
+    .section2-officers .container-fluid.tab-officers{
+        top:-42px;
     }
 }
 
@@ -39,7 +53,7 @@
     }
 
     .section2-officers .container-fluid.tab-officers{
-        top:-124px;
+        top:-40px;
     }
 
     .section4 .container-fluid .row:first-child{
