@@ -1,4 +1,8 @@
-<?php include 'header.php'; ?>
+<?php
+    session_start();
+    include 'header.php';
+?>
+
 <section class="section1">
     <div class="container-fluid pt-6 px-5">
         <div class="row align-items-center">
@@ -77,22 +81,22 @@
                     <div class="col-lg-12">
                         <p>
                         Last June 15, 2019, the student chapter of ACM in FEU Tech just conducted one of their biggest year end event
-                        in the Innovation Center. In partnership with Chiz Curls, IBM, and Appsolutely, the event was attended by over 
+                        in the Innovation Center. In partnership with Chiz Curls, IBM, and Appsolutely, the event was attended by over
                         150 tech enthusiast, professionals, and students. <br><br>
-                        This prestigious event was opened up by this year’s ACM Org adviser, Mr. Abraham Magpantay, followed by the keynote 
-                        speaker Mr. Ian Howell. What followed after was the talk of Mr. Joseph Mandalihan about Data Science for Business. 
+                        This prestigious event was opened up by this year’s ACM Org adviser, Mr. Abraham Magpantay, followed by the keynote
+                        speaker Mr. Ian Howell. What followed after was the talk of Mr. Joseph Mandalihan about Data Science for Business.
                         After his talk was Mr. Francis Al Victoriano’s Revolutionary Banking in Block Chain. Before the audience went to their
-                        lunch break, there had been open forum in between the talks, in which the audience engaged with the speakers asking relevant 
+                        lunch break, there had been open forum in between the talks, in which the audience engaged with the speakers asking relevant
                         and insightful questions. <br><br>
-                        Once the lunch break was over, the event resumed with Mr. Royce Bautista’s Accessing the Cloud in Cloud Computing. And 
-                        Last but not the least, was Mr. Christian Garaza’s Progress in AI and Large Scale Machine Learning. The audience were 
-                        entertained by the speakers afterwards, however the open forum was cut short due to the influx of questions coming from 
-                        the audience as it was time for the company talk of IBM and Appsolutely, led by Ms. Petite Francisco and Mr. Ike Tuazon. 
-                        IBM talked about the job opening in their company whilst Appsolutely discussed the importance of exclusive cryptocurrency 
+                        Once the lunch break was over, the event resumed with Mr. Royce Bautista’s Accessing the Cloud in Cloud Computing. And
+                        Last but not the least, was Mr. Christian Garaza’s Progress in AI and Large Scale Machine Learning. The audience were
+                        entertained by the speakers afterwards, however the open forum was cut short due to the influx of questions coming from
+                        the audience as it was time for the company talk of IBM and Appsolutely, led by Ms. Petite Francisco and Mr. Ike Tuazon.
+                        IBM talked about the job opening in their company whilst Appsolutely discussed the importance of exclusive cryptocurrency
                         in mobile devices.<br><br>
-                        The event adjourned with the closing remarks led by the incoming 2019-2020 ACM President, Mr. Llloyd BJ Tarronas. Before 
-                        the audience leave the premises, snacks from Chiz Curls and ACM Swags were given as a reminder of what transpired in the 
-                        one of the biggest year end event of ACM FEU Tech.  
+                        The event adjourned with the closing remarks led by the incoming 2019-2020 ACM President, Mr. Llloyd BJ Tarronas. Before
+                        the audience leave the premises, snacks from Chiz Curls and ACM Swags were given as a reminder of what transpired in the
+                        one of the biggest year end event of ACM FEU Tech.
                         </p>
                     </div>
                 </div>
