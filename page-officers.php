@@ -59,18 +59,17 @@
                         <!-- Slideshows -->
                         <div id="slideshowOfficers19-20" class="carousel slide" data-ride="carousel">
                           <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img src="resources\img\officer\2019officera.png" class="d-block w-auto slidershow-officers" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="resources\img\officer\2019officerb.png" class="d-block w-auto slidershow-officers" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="resources\img\officer\2019officerc.png" class="d-block w-auto slidershow-officers" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="resources\img\officer\2019officerd.png" class="d-block w-auto slidershow-officers" alt="...">
-                            </div>
+                              <!-- Officers 2019-2020 images -->
+                              <?php
+                                  $dir = "resources\img\officer\individual\\2019\*.png"; // directory of officers images;
+                                  $images = glob($dir); // returns array images relative path eg: (resources\img\officer\individual\2018\AARON.jpg")
+                               ?>
+                              <?php foreach($images as $key=>$image): // loop through images ?>
+                                  <div class="carousel-item <?php if($key === 0) echo "active"; ?>">
+                                    <img src="<?php echo $image ?>" class="d-block w-auto slidershow-officers" alt="...">
+                                  </div>
+                              <?php endforeach; ?>
+                              <!-- ./Officer 2019-2020 images -->
                           </div>
 
                           <a class="carousel-control-prev" href="#slideshowOfficers19-20" role="button" data-slide="prev">
@@ -87,15 +86,21 @@
                     </div>
                     <div class="tab-pane fade" id="ay1819" role="tabpanel" aria-labelledby="ay1819-tab">
                       <div class="container">
+
                         <!-- Slideshows -->
                         <div id="slideshowOfficers18-19" class="carousel slide" data-ride="carousel">
                           <div class="carousel-inner">
-                          <div class="carousel-item active">
-                              <img src="resources\img\officer\2018officera.png" class="d-block w-auto slidershow-officers" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="resources\img\officer\2018officerb.png" class="d-block w-auto slidershow-officers" alt="...">
-                            </div>
+                            <!-- Officers 2018-2019 images -->
+                            <?php
+                                $dir = "resources\img\officer\individual\\2018\*.jpg"; // directory of officers images;
+                                $images = glob($dir); // returns array images relative path eg: (resources\img\officer\individual\2018\AARON.jpg")
+                             ?>
+                            <?php foreach($images as $key=>$image): // loop through images ?>
+                                <div class="carousel-item <?php if($key === 0) echo "active"; ?>">
+                                  <img src="<?php echo $image ?>" class="d-block w-auto slidershow-officers" alt="...">
+                                </div>
+                            <?php endforeach; ?>
+                            <!-- ./Officer 2018-2019 images -->
                           </div>
 
                           <a class="carousel-control-prev" href="#slideshowOfficers18-19" role="button" data-slide="prev">
