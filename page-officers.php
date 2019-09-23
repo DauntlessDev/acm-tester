@@ -54,10 +54,12 @@
         </div>
             <div class="row justify-content-center text-left py-5">
                 <div class="tab-content" id="myTabContent">
+                    <!-- @TODO IMPROVE CODE READABILITY -->
+                    <!-- [2019-2020 SECTION (OFFICERS)] -->
                     <div class="tab-pane fade show active" id="ay1920" role="tabpanel" aria-labelledby="ay1920-tab">
 
-                        <!-- Slideshows -->
-                        <div id="slideshowOfficers19-20" class="carousel slide" data-ride="carousel">
+                        <!-- Slideshows INDIVIDUAL (For small screens) -->
+                        <div id="slideshowOfficers19-20" class="carousel slide d-block d-lg-none" data-ride="carousel">
                           <div class="carousel-inner">
                               <!-- Officers 2019-2020 images -->
                               <?php
@@ -81,14 +83,42 @@
                             <span class="sr-only">Next</span>
                           </a>
                       </div>
-                      <!-- ./Slideshows -->
+                      <!-- ./Slideshows INDIVIDUAL (For small screens) -->
 
+                      <!-- Slideshows GROUP (For large screens)-->
+                      <div id="slideshowOfficers19-20-lg" class="carousel slide d-none d-lg-block" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Officers 2019-2020 images -->
+                            <?php
+                                $dir = "resources\img\officer\group\\2019\*.png"; // directory of officers images;
+                                $images = glob($dir); // returns array images relative path eg: (resources\img\officer\individual\2018\AARON.jpg")
+                             ?>
+                            <?php foreach($images as $key=>$image): // loop through images ?>
+                                <div class="carousel-item <?php if($key === 0) echo "active"; ?>">
+                                  <img src="<?php echo $image ?>" class="d-block w-auto slidershow-officers" alt="...">
+                                </div>
+                            <?php endforeach; ?>
+                            <!-- ./Officer 2019-2020 images -->
+                        </div>
+
+                        <a class="carousel-control-prev" href="#slideshowOfficers19-20-lg" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#slideshowOfficers19-20-lg" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                      <!-- ./Slideshows GROUP (For large screens) -->
                     </div>
-                    <div class="tab-pane fade" id="ay1819" role="tabpanel" aria-labelledby="ay1819-tab">
-                      <div class="container">
+                    <!-- ./[2019-2020 SECTION (OFFICERS)] -->
 
-                        <!-- Slideshows -->
-                        <div id="slideshowOfficers18-19" class="carousel slide" data-ride="carousel">
+                    <!-- [2018-2019 SECTION (OFFICERS)] -->
+                    <div class="tab-pane fade" id="ay1819" role="tabpanel" aria-labelledby="ay1819-tab">
+
+                        <!-- Slideshows INDIVIDUAL (For small screens)-->
+                        <div id="slideshowOfficers18-19" class="carousel slide d-block d-lg-none" data-ride="carousel">
                           <div class="carousel-inner">
                             <!-- Officers 2018-2019 images -->
                             <?php
@@ -112,9 +142,39 @@
                             <span class="sr-only">Next</span>
                           </a>
                         </div>
-                        <!-- ./Slideshows -->
+                        <!-- ./Slideshows INDIVIDUAL (For small screens) -->
+
+                        <!-- Slideshows GROUP (For large screens)-->
+                        <div id="slideshowOfficers18-19-lg" class="carousel slide d-none d-lg-block" data-ride="carousel">
+                          <div class="carousel-inner">
+                              <!-- Officers 2018-2019 images -->
+                              <?php
+                                  $dir = "resources\img\officer\group\\2018\*.png"; // directory of officers images;
+                                  $images = glob($dir); // returns array images relative path eg: (resources\img\officer\individual\2018\AARON.jpg")
+                               ?>
+                              <?php foreach($images as $key=>$image): // loop through images ?>
+                                  <div class="carousel-item <?php if($key === 0) echo "active"; ?>">
+                                    <img src="<?php echo $image ?>" class="d-block w-auto slidershow-officers" alt="...">
+                                  </div>
+                              <?php endforeach; ?>
+                              <!-- ./Officer 2018-2019 images -->
+                          </div>
+
+                          <a class="carousel-control-prev" href="#slideshowOfficers18-19-lg" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#slideshowOfficers18-19-lg" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
                       </div>
+                      <!-- ./Slideshows GROUP (For large screens) -->
+
                     </div>
+                    <!--./[2018-2019 SECTION (OFFICERS)] -->
+                    <!-- @TODO ./IMPROVE CODE READABILITY -->
+
                     <!--div class="tab-pane fade" id="ay1617" role="tabpanel" aria-labelledby="ay1617-tab">1617</div>
                     <div class="tab-pane fade" id="ay1516" role="tabpanel" aria-labelledby="ay1516-tab">1516</div>
                     <div class="tab-pane fade" id="ay1415" role="tabpanel" aria-labelledby="ay1415-tab">1415</div>
