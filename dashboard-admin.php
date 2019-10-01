@@ -1,3 +1,4 @@
+<?php if(!defined('EXTENDED')) die('Direct access not permitted'); // Prevent direct access ?>
 <!DOCTYPE html>
 <html lang="">
 	<head>
@@ -76,11 +77,11 @@
 						<a href="#">
 
 							<img src="resources/img/icons/unknown.png"  width="48" height="48" alt="unknown" >
-							<span>Admin Name</span>
+							<span><?= $_SESSION['full_name']; ?></span>
 						</a>
 					</li>
-				</ul> 
-				<ul>				
+				</ul>
+				<ul>
 					<li class="active">
 						<a href="#admin-section">
 							<span><i class="fa fa-user"></i></span>
@@ -95,10 +96,10 @@
 						</a>
 					</li>
 					<li>
-						<a class= "login" href="#login.php">
+						<a class= "login" href="backend/logout-member.php">
 							<span><i class="fa fa-credit-card-alt"></i></span>
 							<span>Log out</span>
-						</a>	
+						</a>
 					</li>
 				</ul>
 			</nav>
@@ -112,7 +113,7 @@
 					<i class="ion-ios-close-empty"></i>
 				</div>
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				// kodhus demos 
+				// kodhus demos
 				<ins class="adsbygoogle"
 				     style="display:inline-block;width:300px;height:250px"
 				     data-ad-client="ca-pub-8408356133845039"
@@ -163,11 +164,11 @@
 												<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
 												<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
 											</td>
-									</tr>									     
+									</tr>
 									</tbody>
 								</table>
 							</div>
-						</div>    
+						</div>
 				</div>
 				<div class="widget">
 					<div class="title">Members</div>
@@ -220,11 +221,11 @@
 												<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
 												<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
 											</td>
-										</tr>      
+										</tr>
 									</tbody>
 								</table>
 							</div>
-						</div>    
+						</div>
 				</div>
 			</div>
 		</div>
@@ -238,9 +239,9 @@
 					  </button>
 					</div>
 					<form action="code.php" method="POST">
-			  
+
 					  <div class="modal-body">
-			  
+
 						  <div class="form-group">
 							  <label> Username </label>
 							  <input type="text" name="username" class="form-control" placeholder="Enter Username">
@@ -257,14 +258,14 @@
 							  <label>Confirm Password</label>
 							  <input type="password" name="confirmpassword" class="form-control" placeholder="Confirm Password">
 						  </div>
-					  
+
 					  </div>
 					  <div class="modal-footer">
 						  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 						  <button type="submit" name="registerbtn" class="btn btn-primary">Save</button>
 					  </div>
 					</form>
-			  
+
 				  </div>
 				</div>
 			  </div>
@@ -279,7 +280,7 @@
 				</div>
 				<form action="code.php" method="POST">
 				<div class="modal-body">
-		  
+
 					<div class="form-group">
 						  <label> Name </label>
 						  <input type="text" name="name" class="form-control" placeholder="Enter Name">
@@ -298,7 +299,7 @@
 					<button type="submit" name="registerbtn" class="btn btn-primary">Save</button>
 				</div>
 			</form>
-		  
+
 			</div>
 		</div>
 		</div>

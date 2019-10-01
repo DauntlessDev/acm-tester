@@ -21,16 +21,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['middle_name'] = $row["middle_name"];
         $_SESSION['last_name'] = $row["last_name"];
         // var_dump($_SESSION);
-    } else if (mysqli_num_rows($res) > 1)
+    } else if (mysqli_num_rows($res) > 1) {
         die("ERROR: Multiple result");
-    else
+    } else {
         $_SESSION['is_member'] = false;
+    }
+
+    // don't forget to close connection peeps
+    mysqli_close($conn);
 
     // redirect back
     header("Location: ../index.php#page-members.php");
-    // don't forget to close connection peeps
-    mysqli_close($conn);
 }
-
 
 ?>
