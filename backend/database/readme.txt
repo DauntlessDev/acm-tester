@@ -12,7 +12,14 @@ How to setup database
 11. double-click acm.sql
 12. click Go in phpMyAdmin
 
-13. Congrats! you have now imported the database and you may use the student number functionality
-    (dummy student numbers: 201812345 and 201854321, feel free to add your own )
+13. Congrats! you have now imported the database and you may now login.
+
+======Dummy Accounts======
+email: ragkuza@gmail.com
+pass: p@ssword
+
+email: romleuterio@gmail.com
+pass: p@ssword
+==========================
 
 -in case of error feel free to contact me :)
