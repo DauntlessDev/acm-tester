@@ -38,10 +38,13 @@
 					<span class="login100-form-title p-b-43">
 						Login to continue
 					</span>
+					<br>
 
+					<p class="text-center text-danger"><?= isset($_SESSION['error-msg']) ? $_SESSION['error-msg'] : "" ?></p>
+					<?php if(isset($_SESSION['error-msg'])) $_SESSION['error-msg'] = ""; // clear session after displaying?>
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<input class="input100" type="text" name="email" value="">
+						<input class="input100" type="text" name="email" value="<?= isset($_SESSION['emailField']) ? $_SESSION['emailField'] : "" ?>">
 						<span class="focus-input100"></span>
 						<span class="label-input100">Email</span>
 					</div>

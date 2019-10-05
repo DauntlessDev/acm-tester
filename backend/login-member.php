@@ -7,6 +7,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     require "database/connection.php";
 
     $email = $_POST['email'];
+    $_SESSION['emailField'] = $email;
+    
     $email = trim($email); // remove whitespaces
     $email = mysqli_real_escape_string($conn, $email); // santize user input
 
@@ -29,31 +31,29 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             $isSessionAdded = mysqli_query($conn, $query); // retuns true(session inserted) or false(session failed to insert)
 
-            // mysqli_close($conn); // CLOSE CONNECTIOn
+            mysqli_close($conn); // CLOSE CONNECTIOn
 
             if ($isSessionAdded) {
                 $_SESSION['authenticated'] = true;
                 $_SESSION['member_id'] = $row['member_id']; //`members.member_id`
                 $_SESSION['full_name'] = $row['first_name'] . " " . $row['middle_name'] . " " . $row['last_name'];
 
-                echo "Session Added";
+                // echo "Session Added";
                 header("Location: ../login.php");
             } else {
-                echo "Session Already Exists: " . session_id();
+                // echo "Session Already Exists: " . session_id();
                 session_regenerate_id();
             }
 
-        } else {
-            mysqli_close($conn);
-            echo "incorrect password";
-            // return false;
         }
 
-    } else {
-        mysqli_close($conn);
-        // what to do if no results
-        echo "No results";
     }
+
+    mysqli_close($conn);
+    // echo "Invalid Username/Password";
+    $_SESSION['error-msg'] = "Invalid Username/Password";
+    header("Location: ../login.php");
+
 
 }
 
