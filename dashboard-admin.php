@@ -48,14 +48,14 @@
 				cursor: pointer;
 				text-align: center;
 			}
-		</style-->
+		</style>
 		<script>
 			$(function() {
 				$('.close').click(function() {
 					$('.ad').css('display', 'none');
 				})
 			})
-		</script>
+		</script-->
 
 	</head>
 	<body>
@@ -130,9 +130,6 @@
 								<div class="table-title">
 									<div class="row">
 										<div class="col-sm-8"><h2>Administration <b>Details</b></h2></div>
-										<div class="col-sm-4">
-											<button type="button" class="btn btn-info add-new" data-toggle="modal" data-target="#addadminprofile"><i class="fa fa-plus"></i> Add New</button>
-										</div>
 									</div>
 								</div>
 								<table class="table table-bordered">
@@ -140,29 +137,20 @@
 										<tr>
 											<th>Name</th>
 											<th>Email</th>
-											<th>Password</th>
-											<th>Actions</th>
+											<th>Course</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr>
 											<td>Brave Pogi</td>
 											<td>romleuterio@gmail.com</td>
-											<td>pass</td>
-											<td>
-												<a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
-												<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-												<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+											<td>BSCSSE</td>
 											</td>
 										</tr>
 										<tr>
 											<td>Chris Hacker</td>
 											<td>ragkuza@gmail.com</td>
-											<td>*********</td>
-											<td>
-												<a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
-												<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-												<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+											<td>BSCSSE</td>
 											</td>
 									</tr>
 									</tbody>
@@ -176,132 +164,94 @@
 							<div class="table-wrapper">
 								<div class="table-title">
 									<div class="row">
-										<div class="col-sm-8"><h2>Membership <b>Details</b></h2></div>
-										<div class="col-sm-4">
-											<button type="button" class="btn btn-info add-new" data-toggle="modal" data-target="#addmember"><i class="fa fa-plus"></i> Add New</button>
-										</div>
+										<div class="col-sm-8"><h2>Membership <b>Details</b></h2></div><br><br><br><br>
+											<form>
+											<div class="form-group">
+												<label>Name:</label>
+												<input type="text" name="name" class="form-control" value="Paresh Maglapis" required="">
+											</div>
+											
+											<div class="form-group">
+												<label>Student Number:</label>
+												<input type="text" name="email" class="form-control" value="201912345" required="">
+											</div>
+											
+											<button type="submit" class="btn btn-info add-new" data-toggle="modal" data-target="#addmember"><i class="fa fa-plus"></i> Save</button>
+											
+											</form>
+											<br/><br><br><br>
+											<table class="table table-bordered data-table">
+											<thead>
+												<th>Name</th>
+												<th>Student Number</th>
+												<th width="200px">Action</th>
+											</thead>
+											<tbody>
+											</tbody>
+											</table>
+											</div>
 									</div>
 								</div>
-								<table class="table table-bordered">
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Course</th>
-											<th>Student Number</th>
-											<th>Actions</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>John Doe</td>
-											<td>BSCSSE</td>
-											<td>201921312</td>
-											<td>
-												<a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
-												<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-												<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
-											</td>
-										</tr>
-										<tr>
-											<td>Peter Parker</td>
-											<td>BSCSSE</td>
-											<td>201921312</td>
-											<td>
-												<a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
-												<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-												<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
-											</td>
-										</tr>
-										<tr>
-											<td>Fran Wilson</td>
-											<td>BSCSSE</td>
-											<td>201921312</td>
-											<td>
-												<a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
-												<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-												<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
-											</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
 						</div>
-				</div>
-			</div>
-		</div>
-		<div class="modal fade" id="addadminprofile" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
-				  <div class="modal-content">
-					<div class="modal-header">
-					  <h5 class="modal-title" id="exampleModalLabel">Add Admin Data</h5>
-					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					  </button>
 					</div>
-					<form action="code.php" method="POST">
-
-					  <div class="modal-body">
-
-						  <div class="form-group">
-							  <label> Username </label>
-							  <input type="text" name="username" class="form-control" placeholder="Enter Username">
-						  </div>
-						  <div class="form-group">
-							  <label>Email</label>
-							  <input type="email" name="email" class="form-control" placeholder="Enter Email">
-						  </div>
-						  <div class="form-group">
-							  <label>Password</label>
-							  <input type="password" name="password" class="form-control" placeholder="Enter Password">
-						  </div>
-						  <div class="form-group">
-							  <label>Confirm Password</label>
-							  <input type="password" name="confirmpassword" class="form-control" placeholder="Confirm Password">
-						  </div>
-
-					  </div>
-					  <div class="modal-footer">
-						  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						  <button type="submit" name="registerbtn" class="btn btn-primary">Save</button>
-					  </div>
-					</form>
-
-				  </div>
-				</div>
-			  </div>
-		<div class="modal fade" id="addmember" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog" role="document">
-			  <div class="modal-content">
-				<div class="modal-header">
-				  <h5 class="title">Add Member Data</h5>
-				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				  </button>
-				</div>
-				<form action="code.php" method="POST">
-				<div class="modal-body">
-
-					<div class="form-group">
-						  <label> Name </label>
-						  <input type="text" name="name" class="form-control" placeholder="Enter Name">
-					</div>
-					<div class="form-group">
-						<label> Course </label>
-						<input type="text" name="course" class="form-control" placeholder="Enter Course">
-					</div>
-					<div class="form-group">
-						<label> Student Number </label>
-						<input type="text" name="studentnumber" class="form-control" placeholder="Enter Student Number">
-					</div>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					<button type="submit" name="registerbtn" class="btn btn-primary">Save</button>
-				</div>
-			</form>
-
-			</div>
-		</div>
-		</div>
-	</body>
+				<form>
+		</body>
 </html>
+
+
+<script type="text/javascript">
+   
+    $("form").submit(function(e){
+        e.preventDefault();
+        var name = $("input[name='name']").val();
+        var email = $("input[name='email']").val();
+     
+        $(".data-table tbody").append("<tr data-name='"+name+"' data-email='"+email+"'><td>"+name+"</td><td>"+email+"</td><td><button class='btn btn-info btn-xs btn-edit'>Edit</button><button class='btn btn-danger btn-xs btn-delete'>Delete</button></td></tr>");
+    
+        $("input[name='name']").val('');
+        $("input[name='email']").val('');
+    });
+   
+    $("body").on("click", ".btn-delete", function(){
+        $(this).parents("tr").remove();
+    });
+    
+    $("body").on("click", ".btn-edit", function(){
+        var name = $(this).parents("tr").attr('data-name');
+        var email = $(this).parents("tr").attr('data-email');
+    
+        $(this).parents("tr").find("td:eq(0)").html('<input name="edit_name" value="'+name+'">');
+        $(this).parents("tr").find("td:eq(1)").html('<input name="edit_email" value="'+email+'">');
+    
+        $(this).parents("tr").find("td:eq(2)").prepend("<button class='btn btn-info btn-xs btn-update'>Update</button><button class='btn btn-warning btn-xs btn-cancel'>Cancel</button>")
+        $(this).hide();
+    });
+   
+    $("body").on("click", ".btn-cancel", function(){
+        var name = $(this).parents("tr").attr('data-name');
+        var email = $(this).parents("tr").attr('data-email');
+    
+        $(this).parents("tr").find("td:eq(0)").text(name);
+        $(this).parents("tr").find("td:eq(1)").text(email);
+   
+        $(this).parents("tr").find(".btn-edit").show();
+        $(this).parents("tr").find(".btn-update").remove();
+        $(this).parents("tr").find(".btn-cancel").remove();
+    });
+   
+    $("body").on("click", ".btn-update", function(){
+        var name = $(this).parents("tr").find("input[name='edit_name']").val();
+        var email = $(this).parents("tr").find("input[name='edit_email']").val();
+    
+        $(this).parents("tr").find("td:eq(0)").text(name);
+        $(this).parents("tr").find("td:eq(1)").text(email);
+     
+        $(this).parents("tr").attr('data-name', name);
+        $(this).parents("tr").attr('data-email', email);
+    
+        $(this).parents("tr").find(".btn-edit").show();
+        $(this).parents("tr").find(".btn-cancel").remove();
+        $(this).parents("tr").find(".btn-update").remove();
+    });
+    
+</script>
