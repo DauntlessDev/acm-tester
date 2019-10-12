@@ -228,18 +228,23 @@ body {
 	border: 1px solid #ddd;
 }
 
+html, body {margin: 0; height: 100%; overflow: hidden}
 /* TABLE CSS */
 body {
         color: #404E67;
         background: #F5F7FA;
 		font-family: 'Open Sans', sans-serif;
+		
 	}
 	.table-wrapper {
 		width: 700px;
 		margin: 30px auto;
+        background: #fff;	
+    }
+	.table-wrapper2 {
+		width: 900px;
+		margin: 30px auto;
         background: #fff;
-        padding: 20px;	
-        box-shadow: 0 1px 1px rgba(0,0,0,.05);
     }
     .table-title {
         padding-bottom: 10px;
