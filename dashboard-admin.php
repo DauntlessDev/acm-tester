@@ -167,23 +167,38 @@
 										<div class="col-sm-8"><h2>Membership <b>Details</b></h2></div><br><br><br><br>
 											<form>
 											<div class="form-group">
-												<label>Name:</label>
-												<input type="text" name="name" class="form-control" value="Paresh Maglapis" required="">
+												<label>First Name:</label>
+												<input type="text" name="name" class="form-control" value="Paresh" required="">
 											</div>
-											
+											<div class="form-group">
+												<label>Middle Name:</label>
+												<input type="text" name="middle-name" class="form-control" value="Lin" required="">
+											</div>
+											<div class="form-group">
+												<label>Last Name:</label>
+												<input type="text" name="last-name" class="form-control" value="Maglapis" required="">
+											</div>
 											<div class="form-group">
 												<label>Student Number:</label>
-												<input type="text" name="email" class="form-control" value="201912345" required="">
+												<input type="text" name="student-num" class="form-control" value="201911472" required="">
 											</div>
+											<div class="form-group">
+												<label>Email:</label>
+												<input type="text" name="email" class="form-control" value="Pmaglapis@gmail.com" required="">
+											</div>
+
 											
-											<button type="submit" class="btn btn-info add-new" data-toggle="modal" data-target="#addmember"><i class="fa fa-plus"></i> Save</button>
-											
-											</form>
+											<button type="submit" class="btn btn-info add-new" data-toggle="modal" data-target="#addmember"><i class="fa fa-plus"></i> Save</button>				
+											</form></div></div></div>
+											<div class="table-wrapper2"><div class="table-title">
 											<br/><br><br><br>
 											<table class="table table-bordered data-table">
 											<thead>
-												<th>Name</th>
+												<th>First Name</th>
+												<th>Middle Name</th>
+												<th>Last Name</th>
 												<th>Student Number</th>
+												<th width = "200px">Email</th>
 												<th width="200px">Action</th>
 											</thead>
 											<tbody>
@@ -192,7 +207,7 @@
 											</div>
 									</div>
 								</div>
-						</div>
+						</div></div></div>
 					</div>
 				<form>
 		</body>
@@ -203,13 +218,19 @@
    
     $("form").submit(function(e){
         e.preventDefault();
-        var name = $("input[name='name']").val();
+		var name = $("input[name='name']").val();
+		var middle = $("input[name='middle-name']").val();
+		var last = $("input[name='last-name']").val();
+		var stdnum = $("input[name='student-num']").val();
         var email = $("input[name='email']").val();
      
-        $(".data-table tbody").append("<tr data-name='"+name+"' data-email='"+email+"'><td>"+name+"</td><td>"+email+"</td><td><button class='btn btn-info btn-xs btn-edit'>Edit</button><button class='btn btn-danger btn-xs btn-delete'>Delete</button></td></tr>");
+        $(".data-table tbody").append("<tr data-name='"+name+"' data-middle='"+middle+"' data-last='"+last+"' data-stdnum='"+stdnum+"' data-email='"+email+"'><td>"+name+"</td><td>"+middle+"</td><td>"+last+"</td><td>"+stdnum+"</td><td>"+email+"</td><td><button class='btn btn-info btn-xs btn-edit'>Edit</button><button class='btn btn-danger btn-xs btn-delete'>Delete</button></td></tr>");
     
-        $("input[name='name']").val('');
-        $("input[name='email']").val('');
+		$("input[name='name']").val('');
+		$("input[name='middle-name']").val('');
+		$("input[name='last-name']").val('');
+		$("input[name='student-num']").val('');
+		$("input[name='email']").val('');
     });
    
     $("body").on("click", ".btn-delete", function(){
@@ -217,22 +238,33 @@
     });
     
     $("body").on("click", ".btn-edit", function(){
-        var name = $(this).parents("tr").attr('data-name');
+		var name = $(this).parents("tr").attr('data-name');
+		var middle = $(this).parents("tr").attr('data-middle');
+		var last = $(this).parents("tr").attr('data-last');
+		var stdnum = $(this).parents("tr").attr('data-stdnum');
         var email = $(this).parents("tr").attr('data-email');
     
         $(this).parents("tr").find("td:eq(0)").html('<input name="edit_name" value="'+name+'">');
-        $(this).parents("tr").find("td:eq(1)").html('<input name="edit_email" value="'+email+'">');
-    
-        $(this).parents("tr").find("td:eq(2)").prepend("<button class='btn btn-info btn-xs btn-update'>Update</button><button class='btn btn-warning btn-xs btn-cancel'>Cancel</button>")
+		$(this).parents("tr").find("td:eq(1)").html('<input name="edit_middle" value="'+middle+'">');
+		$(this).parents("tr").find("td:eq(2)").html('<input name="edit_last" value="'+last+'">');
+		$(this).parents("tr").find("td:eq(3)").html('<input name="edit_stdnum" value="'+stdnum+'">');
+		$(this).parents("tr").find("td:eq(4)").html('<input name="edit_email" value="'+email+'">');
+        $(this).parents("tr").find("td:eq(5)").prepend("<button class='btn btn-info btn-xs btn-update'>Update</button><button class='btn btn-warning btn-xs btn-cancel'>Cancel</button>")
         $(this).hide();
     });
    
     $("body").on("click", ".btn-cancel", function(){
-        var name = $(this).parents("tr").attr('data-name');
-        var email = $(this).parents("tr").attr('data-email');
-    
-        $(this).parents("tr").find("td:eq(0)").text(name);
-        $(this).parents("tr").find("td:eq(1)").text(email);
+		var name = $(this).parents("tr").attr('data-name');
+		var middle = $(this).parents("tr").attr('data-middle');
+		var last = $(this).parents("tr").attr('data-last');
+		var stdnum = $(this).parents("tr").attr('data-stdnum');
+		var email = $(this).parents("tr").attr('data-email');
+		
+		$(this).parents("tr").find("td:eq(0)").text(name);
+		$(this).parents("tr").find("td:eq(1)").text(middle);
+		$(this).parents("tr").find("td:eq(2)").text(last);
+		$(this).parents("tr").find("td:eq(3)").text(stdnum);
+        $(this).parents("tr").find("td:eq(4)").text(email);
    
         $(this).parents("tr").find(".btn-edit").show();
         $(this).parents("tr").find(".btn-update").remove();
@@ -240,13 +272,22 @@
     });
    
     $("body").on("click", ".btn-update", function(){
-        var name = $(this).parents("tr").find("input[name='edit_name']").val();
+		var name = $(this).parents("tr").find("input[name='edit_name']").val();
+		var middle = $(this).parents("tr").find("input[name='edit_middle']").val();
+		var last = $(this).parents("tr").find("input[name='edit_last']").val();
+		var stdnum = $(this).parents("tr").find("input[name='edit_stdnum']").val();
         var email = $(this).parents("tr").find("input[name='edit_email']").val();
     
-        $(this).parents("tr").find("td:eq(0)").text(name);
-        $(this).parents("tr").find("td:eq(1)").text(email);
+		$(this).parents("tr").find("td:eq(0)").text(name);
+		$(this).parents("tr").find("td:eq(1)").text(middle);
+		$(this).parents("tr").find("td:eq(2)").text(last);
+		$(this).parents("tr").find("td:eq(3)").text(stdnum);
+        $(this).parents("tr").find("td:eq(4)").text(email);
      
-        $(this).parents("tr").attr('data-name', name);
+		$(this).parents("tr").attr('data-name', name);
+		$(this).parents("tr").attr('data-middle', middle);
+		$(this).parents("tr").attr('data-last', last);
+		$(this).parents("tr").attr('data-stdnum', stdnum);
         $(this).parents("tr").attr('data-email', email);
     
         $(this).parents("tr").find(".btn-edit").show();
