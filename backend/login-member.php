@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $email = $_POST['email'];
     $_SESSION['emailField'] = $email;
-    
+
     $email = trim($email); // remove whitespaces
     $email = mysqli_real_escape_string($conn, $email); // santize user input
 
