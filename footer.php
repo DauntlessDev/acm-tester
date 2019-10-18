@@ -53,7 +53,9 @@
         </div>
     </div>
 </footer>
+</section>
+
+<script src="resources/bootstrap/js/bootstrap.min.js"></script>
+<script src="resources/js/timeline.js"></script>
 </body>
-    <script src="resources/bootstrap/js/bootstrap.min.js"></script>
-    <script src="resources/js/timeline.js"></script>
 </html>

@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>ACM</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
+
         <!-- links -->
         <link rel="stylesheet" href="resources/css/custom.css">
         <link rel="stylesheet" href="resources/css/forms.css">
@@ -19,8 +20,8 @@
         <script src="resources/js/sweetalert.js"></script>
         <script src="resources/js/jquery-3.3.1.slim.min.js"></script>
         <script src="resources/js/custom.js"></script>
-        
-        
+
+
     </head>
     <body>
     <nav class="navbar navbar-expand-lg fixed-top navbar-light container-fluid">
@@ -28,7 +29,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  
+
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
