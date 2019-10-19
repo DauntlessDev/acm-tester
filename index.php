@@ -121,4 +121,4 @@
 <section id="page-about.php"><?php include 'page-about.php'; ?></section>
 <section id="page-events.php"><?php include 'page-events.php'; ?></section>
 <section id="page-members.php"><?php include 'page-members.php'; ?></section>
-<section id="footer.php"><?php include 'footer.php'; ?></section>
+<section id="footer.php"><?php include 'footer.php'; ?><!-- </section> Causes HTML ERROR, Ending tag must be inside footer.php -->

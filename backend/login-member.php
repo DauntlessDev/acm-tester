@@ -45,8 +45,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 session_regenerate_id();
             }
 
+            return; // prevent executing the code below
         }
-
     }
 
     mysqli_close($conn);
@@ -54,7 +54,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $_SESSION['error-msg'] = "Invalid Username/Password";
     header("Location: ../login.php");
 
-
 }
-
 ?>

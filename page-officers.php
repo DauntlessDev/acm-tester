@@ -63,7 +63,7 @@
                           <div class="carousel-inner">
                               <!-- Officers 2019-2020 images -->
                               <?php
-                                  $dir = "resources\img\officer\individual\\2019\*.png"; // directory of officers images;
+                                  $dir = "resources/img/officer/individual/2019/*.png"; // directory of officers images;
                                   $images = glob($dir); // returns array images relative path eg: (resources\img\officer\individual\2018\AARON.jpg")
                                ?>
                               <?php foreach($images as $key=>$image): // loop through images ?>
@@ -90,7 +90,7 @@
                         <div class="carousel-inner">
                             <!-- Officers 2019-2020 images -->
                             <?php
-                                $dir = "resources\img\officer\group\\2019\*.png"; // directory of officers images;
+                                $dir = "resources/img/officer/group/2019/*.png"; // directory of officers images;
                                 $images = glob($dir); // returns array images relative path eg: (resources\img\officer\individual\2018\AARON.jpg")
                              ?>
                             <?php foreach($images as $key=>$image): // loop through images ?>
@@ -122,7 +122,7 @@
                           <div class="carousel-inner">
                             <!-- Officers 2018-2019 images -->
                             <?php
-                                $dir = "resources\img\officer\individual\\2018\*.jpg"; // directory of officers images;
+                                $dir = "resources/img/officer/individual/2018/*.jpg"; // directory of officers images;
                                 $images = glob($dir); // returns array images relative path eg: (resources\img\officer\individual\2018\AARON.jpg")
                              ?>
                             <?php foreach($images as $key=>$image): // loop through images ?>
@@ -149,7 +149,7 @@
                           <div class="carousel-inner">
                               <!-- Officers 2018-2019 images -->
                               <?php
-                                  $dir = "resources\img\officer\group\\2018\*.png"; // directory of officers images;
+                                  $dir = "resources/img/officer/group/2018/*.png"; // directory of officers images;
                                   $images = glob($dir); // returns array images relative path eg: (resources\img\officer\individual\2018\AARON.jpg")
                                ?>
                               <?php foreach($images as $key=>$image): // loop through images ?>
